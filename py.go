@@ -19,6 +19,6 @@ func GetRequest(host string) {
 
 func PostRequest(host string) {
 
-  output := http.Post(host)
+  http.Post(host)
   
 }
