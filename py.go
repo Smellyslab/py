@@ -3,7 +3,7 @@ package py
 import "fmt"
 
 
-func print(text string) {
+func Print(text string) {
 
   fmt.Println(text)
 
