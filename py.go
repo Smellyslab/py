@@ -12,14 +12,13 @@ func Print(text string) {
 
 func GetRequest(host string) {
   
-  output := http.Get(host)
-  fmt.Println(output)
+  http.Get(host)
+  
   
 }
 
 func PostRequest(host string) {
 
   output := http.Post(host)
-  fmt.Println(output)
   
 }
