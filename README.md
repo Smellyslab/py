@@ -20,3 +20,5 @@ func main() {
 }
 // ====================================
 
+// Please Dont Use the RequestGet, or RequestPost function(s) for DDoS or DoS as that was not the intent of the function!
+// Thank you for checking out my page aswell i will be making more things for GoLang as i go on.
