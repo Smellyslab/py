@@ -4,7 +4,7 @@ import "net/http"
 
 func RequestsPost(url string) {
 
-  http.post(url)
+  http.Post(url)
 
 
 }
